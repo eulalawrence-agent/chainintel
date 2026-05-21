@@ -1,0 +1,13 @@
+ChainIntel is a cross-chain whale intelligence platform deploying 9 specialized AI agents for real-time monitoring of fund movements across 15 blockchain networks. Daily consumption: 160M+ tokens.
+
+Operations:
+- Movement Detection: 120K ops/hr x 6 tokens = 18M tokens/day across ETH, ARB, Base, SOL, BSC
+- Pattern Analysis: 85K ops/hr x 12 tokens = 25M tokens/day identifying accumulation/distribution cycles
+- Correlation Analysis: 40K ops/hr x 23 tokens = 22M tokens/day cross-referencing price, sentiment, on-chain data
+- Report Generation: 25K ops/hr x 50 tokens = 30M tokens/day producing comprehensive whale intelligence reports
+
+Architecture: 9 agents (Address Clusterer, Movement Detector, Pattern Analyzer, Risk Scorer, Timeline Builder, Correlation Engine, Alert Generator, Report Writer, Historical Comparator) form a multi-stage pipeline. Each whale transaction flows through all agents consuming 160K+ tokens. We track 12,847 whale addresses across 15 chains processing $3.7B in daily volume.
+
+We monitor 15 chains simultaneously: Ethereum, Arbitrum, Base, Optimism, Polygon, BSC, Solana, Avalanche, Fantom, zkSync, Linea, Scroll, Mantle, Blast, and Mode. Each chain requires dedicated monitoring with chain-specific heuristics for address clustering and risk scoring.
+
+Previously used GPT-4 but costs prohibitive at $14,400/month for 4.8B tokens. MiMo V2.5's 1M context window and free pricing make it ideal for our continuous real-time pipeline. Need 1.6B tokens/month plan for 24/7 multi-chain whale monitoring and cross-chain flow analysis.
